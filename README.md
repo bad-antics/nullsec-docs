@@ -1,259 +1,127 @@
-# NullSec Linux - Security Through Transparency
-
 <div align="center">
 
-![NullSec Logo](https://img.shields.io/badge/NullSec-Linux-00ff41?style=for-the-badge&logo=linux&logoColor=white)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-NullSec%20Public-purple?style=for-the-badge)
+# 📚 NullSec Documentation
 
-**The Ultimate Security-Focused Linux Distribution**
+### Complete Guide to NullSec Tools & Linux
 
-[Download](#download) • [Features](#features) • [Documentation](#documentation) • [Community](#community)
+**by bad-antics development**
 
----
+[![License: NPL](https://img.shields.io/badge/License-NullSec%20Public-red.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/Docs-Complete-green.svg)]()
+[![GitHub](https://img.shields.io/badge/GitHub-bad--antics-black?logo=github)](https://github.com/bad-antics)
+
+```
+    ██████╗  ██████╗  ██████╗███████╗
+    ██╔══██╗██╔═══██╗██╔════╝██╔════╝
+    ██║  ██║██║   ██║██║     ███████╗
+    ██║  ██║██║   ██║██║     ╚════██║
+    ██████╔╝╚██████╔╝╚██████╗███████║
+    ╚═════╝  ╚═════╝  ╚═════╝╚══════╝
+
+    [ bad-antics development | Documentation ]
+```
 
 </div>
 
-## 🛡️ What is NullSec Linux?
+---
 
-NullSec Linux is a security-focused operating system designed for cybersecurity professionals, penetration testers, privacy advocates, and power users who demand complete control over their digital environment.
+## 📖 Documentation Index
 
-Built on a solid Debian foundation, NullSec combines cutting-edge security tools with an elegant, highly customizable interface that doesn't compromise on usability.
+### Getting Started
 
-## ✨ Key Features
+- [Installation Guide](docs/installation.md)
+- [Quick Start](docs/quickstart.md)
+- [System Requirements](docs/requirements.md)
 
-### 🔐 **Complete Security Suite**
+### Tool Documentation
 
-| Tool | Description |
-|------|-------------|
-| **NullSec Crypt** | Military-grade AES-256-GCM file encryption |
-| **NullSec Vault** | Encrypted password manager with secure generation |
-| **NullSec Harden** | Automated system security hardening |
-| **NullSec Shred** | DOD-compliant secure file destruction |
-| **NullSec Whisper** | End-to-end encrypted messaging |
+- [Red Team Tools](docs/redteam/)
+- [Blue Team Tools](docs/blueteam/)
+- [Privacy Tools](docs/privacy/)
+- [System Utilities](docs/utilities/)
 
-### 📡 **Network Intelligence**
+### Tutorials
 
-| Tool | Description |
-|------|-------------|
-| **NullSec Scan** | Multi-protocol network & vulnerability scanner |
-| **NullSec NetWatch** | Real-time traffic monitoring & analysis |
-| **NullSec Proxy** | Tor/VPN/Proxy management with kill switch |
-| **NullSec Torrent** | Anonymous, encrypted torrent client |
-| **NullSec Verify** | File integrity & checksum verification |
+- [Penetration Testing Basics](tutorials/pentest-basics.md)
+- [Network Reconnaissance](tutorials/network-recon.md)
+- [Password Cracking Guide](tutorials/password-cracking.md)
+- [OSINT Techniques](tutorials/osint.md)
+- [System Hardening](tutorials/hardening.md)
 
-### 🎨 **Professional Customization**
+### Reference
 
-| Tool | Description |
-|------|-------------|
-| **NullSec Theme** | 8 stunning color schemes |
-| **NullSec Icons** | Custom icon pack generator |
-| **NullSec Plymouth** | Animated boot screens |
-| **NullSec Wallpaper** | Dynamic wallpaper manager |
-| **NullSec Fetch** | Stylish system info display |
+- [Tool Reference](reference/tools.md)
+- [Command Cheatsheet](reference/cheatsheet.md)
+- [Configuration Options](reference/config.md)
 
-### 💻 **Developer Tools**
+---
 
-| Tool | Description |
-|------|-------------|
-| **NullSec Project** | 11-language project scaffolder |
-| **NullSec Code** | Optimized code editor integration |
-| **NullSec Turbo** | Web dashboard & control center |
+## 🎯 Tool Categories
 
-### ⚙️ **System Management**
+### 🔴 Red Team / Offensive
 
-| Tool | Description |
-|------|-------------|
-| **NullSec Installer** | Custom ISO & image builder |
-| **NullSec Dashboard** | Real-time system monitoring |
-| **NullSec Watch** | Intelligent file system watcher |
+| Tool | Docs |
+|------|------|
+| nullsec-scan | [Documentation](docs/redteam/scan.md) |
+| nullsec-crack | [Documentation](docs/redteam/crack.md) |
+| nullsec-payload | [Documentation](docs/redteam/payload.md) |
+| nullsec-enum | [Documentation](docs/redteam/enum.md) |
+| nullsec-osint | [Documentation](docs/redteam/osint.md) |
+| nullsec-c2 | [Documentation](docs/redteam/c2.md) |
 
-## 🖥️ Control Center
+### 🔵 Blue Team / Defensive
 
-The NullSec Control Center provides a professional web-based dashboard for managing your entire system:
+| Tool | Docs |
+|------|------|
+| nullsec-harden | [Documentation](docs/blueteam/harden.md) |
+| nullsec-audit | [Documentation](docs/blueteam/audit.md) |
+| nullsec-dfir | [Documentation](docs/blueteam/dfir.md) |
+| nullsec-monitor | [Documentation](docs/blueteam/monitor.md) |
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  ┌──────────┐                                                   │
-│  │    N     │  NullSec Control Center                          │
-│  │  NullSec │                                                   │
-│  └──────────┘                                                   │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   CPU ████████████░░░░░░░░  58%     Memory ██████░░░░░░░  42%  │
-│   Disk █████░░░░░░░░░░░░░░  28%     Uptime 4d 12h 37m          │
-│                                                                 │
-│  ┌─ Security Tools ────────────────────────────────────────┐   │
-│  │  🔐 Crypt   🔑 Vault   🛡️ Harden   🗑️ Shred   💬 Whisper │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  ┌─ Network Tools ─────────────────────────────────────────┐   │
-│  │  📡 Scan   👁️ NetWatch   🌐 Proxy   ⬇️ Torrent   ✅ Verify │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+### 🟢 Privacy & Encryption
 
-## 🎯 Who Is This For?
+| Tool | Docs |
+|------|------|
+| nullsec-crypt | [Documentation](docs/privacy/crypt.md) |
+| nullsec-vault | [Documentation](docs/privacy/vault.md) |
+| nullsec-tunnel | [Documentation](docs/privacy/tunnel.md) |
 
-- **Security Researchers** - Comprehensive toolset for vulnerability assessment
-- **Penetration Testers** - Everything you need in one place
-- **Privacy Advocates** - Maximum privacy with Tor integration
-- **System Administrators** - Powerful monitoring and hardening
-- **Developers** - Secure development environment
-- **Power Users** - Full control over your system
+---
 
-## 📦 Installation
+## 🚀 Quick Links
 
-### Quick Install (Recommended)
+- **Tools Repository:** [nullsec-tools](https://github.com/bad-antics/nullsec-tools)
+- **Linux Distribution:** [nullsec-linux](https://github.com/bad-antics/nullsec-linux)
+- **Themes:** [nullsec-themes](https://github.com/bad-antics/nullsec-themes)
+- **Configs:** [nullsec-configs](https://github.com/bad-antics/nullsec-configs)
 
-```bash
-# Download the ISO
-wget https://github.com/nullsec-linux/releases/latest/nullsec-linux.iso
+---
 
-# Verify checksum
-sha256sum -c nullsec-linux.iso.sha256
+## 📝 Contributing to Docs
 
-# Write to USB (replace sdX)
-sudo dd if=nullsec-linux.iso of=/dev/sdX bs=4M status=progress
-```
+We welcome documentation contributions!
 
-### Install Tools on Existing System
+1. Fork the repository
+2. Create your documentation
+3. Submit a pull request
 
-```bash
-# Clone the repository
-git clone https://github.com/nullsec-linux/nullsec-tools.git
-cd nullsec-tools
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-# Run installer
-./install.sh
+---
 
-# Add to PATH
-export PATH="$HOME/.local/bin:$PATH"
-```
+## 🏷️ Keywords
 
-### Windows Installation
-
-Download the Windows package and run `install.bat`:
-
-```
-1. Download nullsec-windows-1.0.0.zip
-2. Extract to any folder
-3. Run install.bat
-4. Use NullSec-Menu.bat or add to PATH
-```
-
-## 🔧 Quick Start Guide
-
-### Encrypt a File
-
-```bash
-nullsec-crypt encrypt secret-document.pdf
-# Enter password when prompted
-# Output: secret-document.pdf.enc
-```
-
-### Scan a Network
-
-```bash
-nullsec-scan 192.168.1.0/24 --profile full
-```
-
-### Manage Passwords
-
-```bash
-# Initialize vault
-nullsec-vault init
-
-# Add password (auto-generate)
-nullsec-vault add github --generate
-
-# Retrieve password
-nullsec-vault get github
-```
-
-### Harden Your System
-
-```bash
-# Run security audit
-sudo nullsec-harden --audit
-
-# Apply recommended hardening
-sudo nullsec-harden --apply
-```
-
-### Launch Control Center
-
-```bash
-nullsec-turbo
-# Open http://localhost:3000
-```
-
-## 🎨 Themes
-
-NullSec includes 8 professionally designed themes:
-
-| Theme | Primary Color | Description |
-|-------|---------------|-------------|
-| **Cyber** | `#00ff41` | Classic hacker green |
-| **Void** | `#6366f1` | Deep purple mystery |
-| **Blood** | `#ff3333` | Aggressive red |
-| **Arctic** | `#00d4ff` | Cool ice blue |
-| **Toxic** | `#b8ff00` | Radioactive lime |
-| **Phantom** | `#ffffff` | Minimal white |
-| **Neon** | `#ff00ff` | Vibrant magenta |
-| **Stealth** | `#333333` | Low-profile dark |
-
-Apply with: `nullsec-theme apply cyber`
-
-## 🔒 Security Philosophy
-
-1. **Transparency** - All tools are open source
-2. **No Telemetry** - Zero data collection
-3. **Encryption by Default** - Protect everything
-4. **Minimal Attack Surface** - Only essential services
-5. **Regular Updates** - Daily security improvements
-
-## 📊 Comparison
-
-| Feature | NullSec | Kali | Parrot | Ubuntu |
-|---------|---------|------|--------|--------|
-| Security Tools | ✅ 21+ Custom | ✅ 600+ | ✅ 400+ | ❌ |
-| Control Center | ✅ Web Dashboard | ❌ | ❌ | ❌ |
-| Windows Tools | ✅ Native Ports | ❌ | ❌ | ❌ |
-| Auto Hardening | ✅ Built-in | ❌ | ⚠️ Limited | ❌ |
-| Theme System | ✅ 8 Themes | ❌ | ❌ | ⚠️ Limited |
-| Daily Updates | ✅ Automated | ⚠️ | ⚠️ | ⚠️ |
-| Privacy Focus | ✅ Maximum | ⚠️ | ✅ | ❌ |
-
-## 🌐 Community
-
-- **GitHub**: [github.com/nullsec-linux](https://github.com/nullsec-linux)
-- **Documentation**: [github.com/nullsec-linux/nullsec-docs](https://github.com/nullsec-linux/nullsec-docs)
-- **Issues**: [Report bugs or request features](https://github.com/nullsec-linux/nullsec-linux/issues)
-
-## 📄 License
-
-NullSec Linux is released under the **NullSec Public License v1.0**.
-
-You are free to:
-- Use for any purpose
-- Modify and distribute
-- Create derivative works
-
-With conditions:
-- Include license and attribution
-- Don't use for malicious purposes
-- Mark modifications clearly
+`security documentation` `penetration testing guide` `ethical hacking tutorial`
+`cybersecurity docs` `kali linux alternative` `security tools documentation`
+`hacking guide` `CTF writeups` `OSINT guide` `password cracking tutorial`
+`bad-antics` `nullsec` `infosec` `red team` `blue team`
 
 ---
 
 <div align="center">
 
-**NullSec Linux - Security Through Transparency**
+**Maintained by [bad-antics](https://github.com/bad-antics)**
 
-*"In a world of surveillance, privacy is power."*
-
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-00ff41?style=for-the-badge)](https://github.com/nullsec-linux/releases)
+*NullSec Project © 2025*
 
 </div>
