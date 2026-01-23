@@ -46,7 +46,7 @@
 - [Network Reconnaissance](tutorials/network-recon.md)
 - [Password Cracking Guide](tutorials/password-cracking.md)
 - [OSINT Techniques](tutorials/osint.md)
-- [System Security](tutorials/hardening.md)
+- [System Security](tutorials/Security.md)
 
 ### Reference
 
